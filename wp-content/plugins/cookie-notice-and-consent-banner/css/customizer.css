@@ -1,0 +1,362 @@
+/* ==========================================================================
+   CSS for Customizer Custom Section
+   ========================================================================== */
+.wp-core-ui .button.button-small {
+    margin-left: 6px;
+    min-height: 30px;
+}
+.cncb-section {
+    margin-top: 20px;
+}
+#customize-theme-controls .customize-control .customize-inside-control-row {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#customize-theme-controls .cncb-customize-control-description {
+    display: block;
+    font-style: italic;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+/* ==========================================================================
+   cncb text control
+   ========================================================================== */
+.customize-control input[type=text].cncb-text-control,
+.customize-control input[type=number].cncb-text-control {
+    width: 20%;
+    margin-right: 5px;
+    display: inline-block;
+}
+.customize-control input[type=text].cncb-text-control.full-width ,
+.customize-control input[type=number].cncb-text-control.full-width {
+    width: 100%;
+}
+.customize-control-description + .cncb-accordion-section-title,
+.customize-control-title + .cncb-accordion-section-title {
+    margin-top: 15px;
+}
+#customize-theme-controls .control-panel-content:not(.control-panel-nav_menus) .cncb-section:nth-child(2) {
+    border-top: 0;
+}
+input[disabled] + img {
+    opacity: .3;
+}
+input[disabled] + img:hover {
+    cursor: not-allowed;
+}
+/* ==========================================================================
+   cncb palette control
+   ========================================================================== */
+.controls-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -6px
+}
+
+.controls-group_col-5>label {
+    width: calc(20% - 12px)
+}
+
+.controls-group_col-4>label {
+    width: calc(25% - 12px)
+}
+
+.controls-group_col-3>label {
+    width: calc(33.333% - 12px)
+}
+
+.choose-num {
+    display: block;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin: 0 6px 14px
+}
+
+.choose-num input {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #949494;
+    height: 36px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    padding: 8px 2px;
+    line-height: 18px;
+    color: #555d66;
+    margin-bottom: 6px
+}
+
+.choose-num input:placeholder {
+    opacity: .3
+}
+
+.choose-num__txt {
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 6px;
+    text-align: center;
+    color: #555d66;
+    text-transform: uppercase;
+    display: block
+}
+
+.color-choose {
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    margin: 0 6px 14px
+}
+
+.color-choose input {
+    position: absolute;
+    left: -9999px
+}
+
+.color-choose input:checked~.color-choose__visual::before {
+    border: solid 2px #278dbc;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px
+}
+
+.color-choose input:checked~.color-choose__visual::after {
+    opacity: 1
+}
+
+.color-choose__left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%
+}
+
+.color-choose__left[style*="background: #fff"],
+.color-choose__left[style*="background: #ffffff"],
+.color-choose__left[style*="background: white"],
+.color-choose__left[style*="background:#fff"],
+.color-choose__left[style*="background:#ffffff"],
+.color-choose__left[style*="background:white"] {
+    -webkit-box-shadow: inset 0 0 0 1px #e4e4e4;
+    box-shadow: inset 0 0 0 1px #e4e4e4
+}
+
+.color-choose__right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%
+}
+
+.color-choose__right[style*="background: #fff"],
+.color-choose__right[style*="background: #ffffff"],
+.color-choose__right[style*="background: white"],
+.color-choose__right[style*="background:#fff"],
+.color-choose__right[style*="background:#ffffff"],
+.color-choose__right[style*="background:white"] {
+    -webkit-box-shadow: inset 0 0 0 1px #e4e4e4;
+    box-shadow: inset 0 0 0 1px #e4e4e4
+}
+
+.color-choose__visual {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    cursor: pointer
+}
+
+.color-choose__visual::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    border: solid 1px #949494
+}
+
+.color-choose__visual::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIuNzUgNGgxMi41djEwSDIuNzV6Ii8+PHBhdGggZD0iTTkgLjY2N0E4LjMzNiA4LjMzNiAwIDAwLjY2NyA5YzAgNC42IDMuNzMzIDguMzMzIDguMzMzIDguMzMzUzE3LjMzMyAxMy42IDE3LjMzMyA5IDEzLjYuNjY3IDkgLjY2N3ptLTEuNjY3IDEyLjVMMy4xNjcgOWwxLjE3NS0xLjE3NSAyLjk5MSAyLjk4MyA2LjMyNS02LjMyNSAxLjE3NSAxLjE4NC03LjUgNy41eiIgZmlsbD0iIzI3OERCQyIvPjwvc3ZnPgo=) 50% 50%/cover no-repeat;
+    opacity: 0;
+    z-index: 3;
+    margin: -8px 0 0 -8px
+}
+
+.color-choose__visual img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 2
+}
+
+.customize-control select:active,
+.customize-control select:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* ==========================================================================
+   Image Radio Buttons
+   ========================================================================== */
+.image-radio-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image_radio_button_control .radio-button-label > input {
+    display: none;
+}
+
+.image_radio_button_control .radio-button-label > img {
+    cursor: pointer;
+    display: block;
+    border: 1px solid #949494;
+}
+
+.image_radio_button_control .radio-button-label > input:checked + img {
+    border: 2px solid #2885bb;
+    width: calc(100% - 2px);
+}
+.radio-button-label {
+    margin-bottom: 7px;
+}
+.radio-button-label-2-col {
+    width: calc(50% - 7px);
+}
+.radio-button-label-2-col img {
+    margin-right: 0;
+    width: 100%;
+}
+.radio-button-label-2-col:nth-child(even) {
+    text-align: right;
+}
+.radio-button-label-2-col:nth-child(odd) {
+    margin-right: 14px;
+}
+/* ==========================================================================
+   Toggle Switch
+   ========================================================================== */
+.toggle-switch-control .customize-control-title {
+    display: inline-block;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 64px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    float: right;
+}
+
+.toggle-switch .toggle-switch-checkbox {
+    display: none;
+}
+
+.toggle-switch .toggle-switch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.toggle-switch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.toggle-switch-inner:before,
+.toggle-switch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 22px;
+    padding: 0;
+    line-height: 22px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.toggle-switch-inner:before {
+    content: "ON";
+    padding-left: 8px;
+    background-color: #2885bb;
+    color: #FFFFFF;
+}
+
+.toggle-switch-inner:after {
+    content: "OFF";
+    padding-right: 8px;
+    background-color: #EEEEEE;
+    color: #999999;
+    text-align: right;
+}
+
+.toggle-switch-switch {
+    display: block;
+    width: 16px;
+    margin: 3px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 38px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-inner {
+    margin-left: 0;
+}
+
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
+    right: 0px;
+}
+.label-units {
+    display: inline-block;
+    float: right;
+    color: #959799;
+    font-weight: 300;
+}
+#customize-theme-controls .cncb-section-control-title {
+    padding-left: 19px;
+}
+.customize-control-title.cncb-customize-control-title {
+    display: block;
+}
+.cncb-section {
+    margin-top: 20px;
+}

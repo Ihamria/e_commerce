@@ -1,0 +1,549 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cookie-consent-notice\n"
+"POT-Creation-Date: 2020-06-02 17:25+0300\n"
+"PO-Revision-Date: 2020-04-11 18:40+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: includes/helpers/class-cncb-banner-helper.php\n"
+"X-Poedit-SearchPath-1: includes/customizer/custom-controls.php\n"
+"X-Poedit-SearchPath-2: includes/customizer/class-cncb-customizer.php\n"
+"X-Poedit-SearchPath-3: includes/customizer/sections/class-cncb-section.php\n"
+"X-Poedit-SearchPath-4: includes/customizer/controls/class-cncb-text-custom-"
+"control.php\n"
+"X-Poedit-SearchPath-5: includes/customizer/controls/class-cncb-toggle-switch-"
+"custom-control.php\n"
+"X-Poedit-SearchPath-6: includes/customizer/controls/class-cncb-space-custom-"
+"control.php\n"
+"X-Poedit-SearchPath-7: includes/customizer/controls/class-cncb-palette-radio-"
+"button-custom-control.php\n"
+"X-Poedit-SearchPath-8: includes/customizer/controls/class-cncb-image-radio-"
+"button-custom-control.php\n"
+"X-Poedit-SearchPath-9: includes/customizer/controls/class-cncb-custom-"
+"control.php\n"
+"X-Poedit-SearchPath-10: includes/admin/class-cncb-admin.php\n"
+"X-Poedit-SearchPath-11: class-cncb-main.php\n"
+"X-Poedit-SearchPath-12: uninstall.php\n"
+"X-Poedit-SearchPath-13: index.php\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: js-banner\n"
+"X-Poedit-SearchPathExcluded-2: build\n"
+
+#: class-cncb-main.php:67 class-cncb-main.php:79
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:113
+msgid "Cookie Notice & Consent Banner Settings"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:114
+#: includes/admin/class-cncb-admin.php:137
+#: includes/customizer/class-cncb-customizer.php:51
+msgid "Cookie Notice & Consent Banner"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:124
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:126
+#: includes/admin/class-cncb-admin.php:155
+msgid "Customize Design"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:144
+msgid "Show banner?"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:152
+msgid "Customize banner"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:160
+msgid "Script blocking"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:164
+msgid ""
+"Enter non functional cookies Javascript code here (for e.g. Google "
+"Analitycs) to be used after the consent is given."
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:170
+msgid "Auto Accept and Hide"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:171
+msgid ""
+"Under GDPR explicit consent for the cookies is required. Use this options "
+"with discretion especially if you serve EU countries"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:177
+msgid "On scroll"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:183
+msgid "Auto accept and hide banner after scroll."
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:188
+msgid ""
+"Number of pixels user has to scroll to accept the notice and make it "
+"disappear"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:196
+msgid "After Delay"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:202
+msgid "Auto accept and hide banner when time passed"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:207
+msgid "Milliseconds until hidden"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:215
+msgid "On Click"
+msgstr ""
+
+#: includes/admin/class-cncb-admin.php:221
+msgid "Auto accept and hide banner when user clicks anywhere on the page"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:90
+msgid "Step 1: Run Wizard"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:91
+msgid "Wizard"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:113
+msgid "Type"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:118
+msgid "Line"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:123
+msgid "Block"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:145
+msgid "Position"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:150
+msgid "Top"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:155
+msgid "Bottom"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:160
+msgid "Top Left"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:165
+msgid "Top Right"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:170
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:175
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:180
+msgid "Center"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:203
+msgid "Border"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:224
+msgid "Display overlay"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:243
+msgid "Consent or Inform"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:246
+msgid "Two buttons (let visitors accept/decline cookies)"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:247
+msgid "One button (just inform visitors)"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:266
+msgid "Buttons Form"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:299
+msgid "Vertical Buttons"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:302
+msgid "Yes"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:303
+msgid "No"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:313
+#: includes/helpers/class-cncb-banner-helper.php:55
+msgid "This website uses cookies to improve your browsing experience."
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:321
+msgid "Info Text"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:330
+#: includes/helpers/class-cncb-banner-helper.php:75
+msgid "ALLOW"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:338
+#: includes/customizer/class-cncb-customizer.php:355
+msgid "Allow Text"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:347
+#: includes/helpers/class-cncb-banner-helper.php:94
+msgid "OK"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:364
+#: includes/helpers/class-cncb-banner-helper.php:113
+msgid "DECLINE"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:372
+msgid "Decline Text"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:391
+msgid "Link"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:401
+#: includes/helpers/class-cncb-banner-helper.php:62
+msgid "Learn More"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:409
+msgid "Link Text"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:418
+#: includes/helpers/class-cncb-banner-helper.php:63
+msgid "https://gdprinfo.eu/"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:426
+msgid "Link Href"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:446
+msgid "Palette"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:454
+msgid "Cod gray white"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:461
+msgid "Big stone turquoise"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:468
+msgid "Seaweed atlantis"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:475
+msgid "Charade jaffa"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:482
+msgid "Rhino shakes peare"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:489
+msgid "Cloud burst gorse"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:496
+msgid "San juan gold"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:503
+msgid "Blue chill canary"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:510
+msgid "Affair bright sun"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:517
+msgid "Porcelain malibu"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:524
+msgid "Alice blue cornflower blue"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:531
+msgid "Link water chathams blue"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:538
+msgid "Sazerac tuscany"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:545
+msgid "Catskill white aquaForest"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:552
+msgid "White mine shaft"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:571
+#: includes/customizer/class-cncb-customizer.php:775
+msgid "Animation"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:574
+msgid "No Animation"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:575
+msgid "Slide Top"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:576
+msgid "Slide Bottom"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:577
+msgid "Slide Left"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:578
+msgid "Slide Right"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:579
+msgid "Fade"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:598
+msgid "Step 2: Customize Styles"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:599
+msgid "Dimensions & Space"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:617
+msgid "PX"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:619
+msgid "Banner Margins"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:638
+msgid "Banner Width"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:657
+msgid "Border & Shadows"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:676
+#: includes/customizer/class-cncb-customizer.php:982
+#: includes/customizer/class-cncb-customizer.php:1291
+msgid "Border Radius"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:696
+#: includes/customizer/class-cncb-customizer.php:1002
+#: includes/customizer/class-cncb-customizer.php:1311
+msgid "Border Width"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:717
+#: includes/customizer/class-cncb-customizer.php:1023
+#: includes/customizer/class-cncb-customizer.php:1332
+msgid "Border Color"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:737
+#: includes/customizer/class-cncb-customizer.php:1042
+#: includes/customizer/class-cncb-customizer.php:1351
+msgid "Shadow"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:756
+#: includes/customizer/class-cncb-customizer.php:1061
+#: includes/customizer/class-cncb-customizer.php:1370
+msgid "Example: 0px 1px 10px #616161"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:785
+msgid "0"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:795
+msgid "Animation Delay"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:806
+msgid "600"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:816
+msgid "Animation Duration"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:835
+msgid "Font & Colors"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:855
+#: includes/customizer/class-cncb-customizer.php:947
+#: includes/customizer/class-cncb-customizer.php:1256
+msgid "Text Color"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:871
+#: includes/customizer/class-cncb-customizer.php:963
+#: includes/customizer/class-cncb-customizer.php:1272
+msgid "Font Family"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:872
+#: includes/customizer/class-cncb-customizer.php:964
+#: includes/customizer/class-cncb-customizer.php:1273
+msgid "Example: Arial"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:891
+msgid "Link Color"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:910
+msgid "Link Color (on hover)"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:927
+msgid "Accept Button"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1082
+#: includes/customizer/class-cncb-customizer.php:1391
+msgid "Background Color"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1101
+#: includes/customizer/class-cncb-customizer.php:1410
+msgid "Gradient"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1120
+#: includes/customizer/class-cncb-customizer.php:1198
+#: includes/customizer/class-cncb-customizer.php:1429
+#: includes/customizer/class-cncb-customizer.php:1507
+msgid "Example: linear-gradient(#e66465, #9198e5)"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1142
+#: includes/customizer/class-cncb-customizer.php:1451
+msgid "Text Color (on hover)"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1161
+msgid "Background Color (on hover)"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1179
+#: includes/customizer/class-cncb-customizer.php:1488
+msgid "Gradient (on hover)"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1219
+#: includes/customizer/class-cncb-customizer.php:1528
+msgid "Border Color (on hover)"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1236
+msgid "Decline Button"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1470
+msgid "Background color (on hover)"
+msgstr ""
+
+#: includes/customizer/class-cncb-customizer.php:1545
+msgid "Additional CSS"
+msgstr ""
+
+#: includes/customizer/controls/class-cncb-space-custom-control.php:53
+msgid "top"
+msgstr ""
+
+#: includes/customizer/controls/class-cncb-space-custom-control.php:57
+msgid "right"
+msgstr ""
+
+#: includes/customizer/controls/class-cncb-space-custom-control.php:61
+msgid "bottom"
+msgstr ""
+
+#: includes/customizer/controls/class-cncb-space-custom-control.php:65
+msgid "left"
+msgstr ""
+
+#: includes/customizer/sections/class-cncb-section.php:43
+msgid "Press return or enter to open this section"
+msgstr ""
+
+#: includes/customizer/sections/class-cncb-section.php:53
+msgid "Back"
+msgstr ""
+
+#: includes/customizer/sections/class-cncb-section.php:60
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: includes/customizer/sections/class-cncb-section.php:62
+msgid "Customizing"
+msgstr ""
+
+#: includes/customizer/sections/class-cncb-section.php:69
+msgid "Help"
+msgstr ""

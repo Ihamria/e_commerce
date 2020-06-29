@@ -1,0 +1,164 @@
+/*
+Theme Name: Kalon
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.main-navigation,
+.header-top .social-networks li,
+.main-navigation li{
+	float: right;
+}
+.header-top .social-networks{
+	float: left;
+}
+
+.header-top .social-networks li{
+	margin-left: 0;
+	margin-right: 18px;
+}
+
+.header-top .social-networks li:first-child{
+	margin-right: 0;
+}
+
+.main-navigation li{
+	margin-right: 43px;
+	margin-left: 0;
+}
+
+.main-navigation ul{
+	padding: 0;
+}
+
+.main-navigation li:first-child{
+	margin-right: 0;
+}
+
+.main-navigation ul li:hover > ul{
+	left: auto;
+	right: 0;
+}
+
+.main-navigation ul  ul li:hover > ul{
+	left: auto;
+	right: 100%;
+}
+
+.post .category a{
+	display: inline-block;
+}
+
+.widget-area .widget.widget_search input[type="search"]{
+	float: right;
+}
+
+.widget-area .widget.widget_search input[type="submit"]{
+	float: left;
+}
+
+.widget-area .widget.widget_kalon_popular_post .post-thumbnail, .widget-area .widget.widget_kalon_recent_post .post-thumbnail{
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.widget-area .entry-title{
+	text-align: right !important;
+}
+
+.widget-area .widget.widget_kalon_social_links ul li{
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.site-footer .widget-area .widget .widget-title{
+	text-align: right;
+}
+
+.site-footer .widget-area .column{
+	float: right;
+}
+
+.widget-area .widget ul li{
+	background-position: 100% 22px;
+	padding-left: 0;
+	padding-right: 23px;
+}
+
+.error404 .site-content .error-page ul li{
+	background-position: 100% 11px;
+}
+
+.error404 .site-content .error-page ul {
+	padding-right: 0;
+	text-align: right;
+}
+
+.error404 .site-content .error-page ul li a{
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.avatar.photo{
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.comments-area ol{
+	padding-right: 0;
+}
+
+.comments-area .reply{
+	margin-left: 0;
+	margin-right: 104px;
+}
+
+.post .entry-content blockquote, .page .entry-content blockquote{
+	background-position: calc(100% - 23px) 30px;
+	padding-left: 15px;
+	padding-right: 70px;
+}
+
+.single-page .post .entry-content, .page .entry-content{
+	text-align: right;
+}
+
+.search #primary .post, .search #primary .page{
+	text-align: right;
+}
+
+.search .search-section span{
+	display: inline-block;
+}
+
+.single-post .entry-content{
+	text-align: right;
+}
+
+.single-post #primary .post .tags{
+	float: right;
+}
+
+.single-post .tags a{
+	display: inline-block;
+}
+
+@media only screen and (max-width: 1024px){
+	.mobile-main-navigation ul li .angle-down{
+		right: inherit;
+		left: 0;
+	}
+}

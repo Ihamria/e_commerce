@@ -1,0 +1,169 @@
+# <!=Copyright (C) 2019 Rara Theme
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Kalon Chic 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/kalon-chic\n"
+"POT-Creation-Date: 2019-09-10 06:01:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:60
+msgid "Copyright &copy; "
+msgstr ""
+
+#: functions.php:60
+msgid "Y"
+msgstr ""
+
+#: functions.php:63
+msgid "Kalon Chic by : "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rara Theme"
+msgstr ""
+
+#: functions.php:65
+msgid "Powered by: %s"
+msgstr ""
+
+#: functions.php:65
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:78
+msgid "Information Links"
+msgstr ""
+
+#: functions.php:88
+msgid "Need help?"
+msgstr ""
+
+#: functions.php:89
+msgid "View demo"
+msgstr ""
+
+#: functions.php:89 functions.php:90 functions.php:91 functions.php:92
+msgid "here"
+msgstr ""
+
+#: functions.php:90
+msgid "View documentation"
+msgstr ""
+
+#: functions.php:91
+msgid "Support ticket"
+msgstr ""
+
+#: functions.php:92
+msgid "More Details"
+msgstr ""
+
+#: functions.php:96
+msgid "About Kalon"
+msgstr ""
+
+#: functions.php:220
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:229
+msgid "Instagram Settings"
+msgstr ""
+
+#: functions.php:247
+msgid "Enable Blossom Instagram"
+msgstr ""
+
+#: functions.php:248
+msgid " You can make Instagram Grid using %1$sBlossomThemes Instagram Feed%2$s"
+msgstr ""
+
+#: functions.php:259
+msgid "Newsletter Settings"
+msgstr ""
+
+#: functions.php:276
+msgid "Enable Blossom Email Newsletter"
+msgstr ""
+
+#: functions.php:277
+msgid ""
+" You can make Newsletter in the Homepage by using %1$sBlossomThemes Email "
+"Newsletter%2$s"
+msgstr ""
+
+#: functions.php:295
+msgid "Blossom Email Newsletter"
+msgstr ""
+
+#: functions.php:296
+msgid "Enter Blossom Email Newsletter Shortcode"
+msgstr ""
+
+#: index.php:49
+msgid "Previous"
+msgstr ""
+
+#: index.php:50
+msgid "Next"
+msgstr ""
+
+#: index.php:51
+msgid "Page"
+msgstr ""
+
+#: template-parts/content.php:46
+#. translators: %s: Name of current post.
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content.php:58
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:68
+msgid "Continue Reading"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Kalon Chic"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://rarathemes.com/wordpress-themes/kalon-chic/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Kalon Chic is a child theme of Kalon free WordPress theme. Kalon Chic is a "
+"fully responsive feminine focused theme which ensures that your content "
+"looks perfect on every screen size & devices. With this theme, you can "
+"create a blog & share your expert opinions  on various topics like fashion, "
+"makeup, lifestyle, food, travel, parenting, beauty or any other creative "
+"topic. This theme features an attractive layout which helps you increase "
+"visitors engagement on your blog. Furthermore, it is developed implementing "
+"SEO friendly codes and is Schema.org markup ready, which helps your site "
+"rank high in search engine results. Also, it is optimized for performance "
+"to provide a smooth user experience to your visitors while browsing your "
+"website. The beautiful Instagram section of this theme can be used to "
+"showcase images from your Instagram account and increase your followers. "
+"Also, the well placed Newsletter section will help you to grow your email "
+"list and keep in touch with your visitors. The theme is translation ready, "
+"supports RTL and has a widget ready design. In addition, Kalon Chic is "
+"backed by world-class, one-on-one support, and a super active team of "
+"developers and designers ready to help! Demo at: "
+"https://demo.rarathemes.com/kalon-chic/, Documentation at "
+"https://docs.rarathemes.com/docs/kalon-chic/ and Support at "
+"https://rarathemes.com/support-forum/."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rarathemes.com/"
+msgstr ""
